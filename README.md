@@ -15,14 +15,6 @@ In this work, we employ two neural networks simultaneously as an ensemble to tag
 
 The Ensemble model (EM) use two parallel outputs from both *ResNet50* and *InceptionV3* models for classification as described in the following image.
 
-```{figure} https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg
----
-height: 400px
-name:   EM_arch
-align:  center
----
-```
-
 
 ![alt text](https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg "Title")
 
