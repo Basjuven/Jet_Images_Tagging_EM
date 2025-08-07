@@ -15,7 +15,7 @@ In this work, we employ two neural networks simultaneously as an ensemble to tag
 
 The Ensemble model (EM) use two parallel outputs from both *ResNet50* and *InceptionV3* models for classification as described in the following image.
 
-![alt text](images/Ensemble_arch.jpg "Title")
+![](https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg )
 
 The model integrates features extracted from *ResNet50* and *InceptionV3*, where a $1024$-dimensional feature vector from *ResNet50* and a $2048$-dimensional feature vector from *InceptionV3* are concatenated, forming a $3072$-dimensional representation. The fusion layer reduces the dimensionality to $512$ before passing it to a softmax classifier.
 
