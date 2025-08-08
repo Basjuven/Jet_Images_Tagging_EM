@@ -13,7 +13,7 @@ In this work, we employ two neural networks simultaneously as an ensemble to tag
 
 ## Ensemble Model Architecture
 
-The Ensemble model (EM) use two parallel outputs from both *ResNet50* and *InceptionV3* models for classification as described in the following image.
+The Ensemble model (EM) use two parallel outputs from both [*ResNet50*](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) and [*InceptionV3*](https://docs.pytorch.org/vision/main/models/inception.html) models for classification as described in the following image.
 
 ![alt text](https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg "Title")
 
