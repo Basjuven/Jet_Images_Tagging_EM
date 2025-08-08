@@ -53,7 +53,7 @@ We have used [JetNet](https://zenodo.org/record/6975118) dataset for training an
 
  - **Binary Classification:** Contains the codes for training and testing *ResNet50*, *InceptionV3* as well as the *Ensemble Model* for binary classification between different jets.</br></br>
 
- - **Multi-class Classification:** Contains the codes for training and testing *ResNet50*, *InceptionV3* as well as the *Ensemble Model* for all 5 class classification between different jets.
+ - **Multi-class Classification:** Contains the codes for training and testing *ResNet50*, *InceptionV3* as well as the *Ensemble Model* for all 5 class classification between different jets.</br></br>
 
 
 
