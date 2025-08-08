@@ -44,6 +44,15 @@ With the EM architecture we get a more nuanced ROC curve, the statistical and ot
 
 ## File structure overview
 
+We have used [JetNet](https://zenodo.org/record/6975118) dataset for training and testing our models on $5$ different types of jets. </br></br>
+
+ - **Jet2image:** This folder contains the code to generate images in the required format for training and testing.</br></br>
+
+ - **Binary Classification:** Contains the codes for training and testing *ResNet50*, *InceptionV3* as well as the *Ensemble Model* for binary classification between different jets.</br></br>
+
+ - **Multi-class Classification:** Contains the codes for training and testing *ResNet50*, *InceptionV3* as well as the *Ensemble Model* for all 5 class classification between different jets.
+
+
 
 ## License and Citation
 
