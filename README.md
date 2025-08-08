@@ -13,9 +13,12 @@ In this work, we employ two neural networks simultaneously as an ensemble to tag
 
 ## Ensemble Model Architecture
 
-The Ensemble model (EM) use two parallel outputs from both [*ResNet50*](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) and [*InceptionV3*](https://docs.pytorch.org/vision/main/models/inception.html) models for classification as described in the following image.
+The Ensemble model (EM) use two parallel outputs from both [*ResNet50*](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) and [*InceptionV3*](https://docs.pytorch.org/vision/main/models/inception.html) models for classification as described in the following image.</br>
 
-![alt text](https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg "Title")
+<p align="center">
+  <img width="400" src="https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg" />
+</p>
+
 
 The model integrates features extracted from *ResNet50* and *InceptionV3*, where a $1024$-dimensional feature vector from *ResNet50* and a $2048$-dimensional feature vector from *InceptionV3* are concatenated, forming a $3072$-dimensional representation. The fusion layer reduces the dimensionality to $512$ before passing it to a softmax classifier.
 
