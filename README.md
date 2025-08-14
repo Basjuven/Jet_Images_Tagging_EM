@@ -1,19 +1,11 @@
-# Jet Image Tagging Using Deep Learning: An Ensemble Model
+# Ensemble Model
 
-Juvenal Bassa <sup>1</sup>, Vidya Manian <sup>2</sup>, Sudhir Malik <sup>1</sup>, Arghya Chattopadhyay <sup>1</sup>
-
-<sub> 1. Department of Physics, University of Puerto Rico Mayaguez, University of Puerto Rico Mayaguez,PR 00681, USA </sub> <br>
-<sub> 2. Department of Electrical and Computer Engineering, University of Puerto Rico Mayaguez,PR 00681, USA</sub>
+This is the code repository for our paper titled **[Jet Image Tagging Using Deep Learning: An Ensemble Model](arxiv)**.
 
 
-## Abstract
+## Model Architecture
 
-In this work, we employ two neural networks simultaneously as an ensemble to tag various jet types. We convert the jet data to two-dimensional histograms instead of representing them as points in higher-dimensional space. Specifically, this ensemble approach, called the Ensemble Model, is used to tag jets into classes from JetNet dataset, corresponding to: Top Quarks, Light Quarks (up or down), and *W* and *Z* bosons. For the jet classes mentioned above, we show that the Ensemble Model can be used for both binary and multi-category classification. This ensemble approach learns the jet features by leveraging the strengths of each constituent network achieving superior performance compared to each individual network.
-
-
-## Ensemble Model Architecture
-
-The Ensemble model (EM) use two parallel outputs from both [*ResNet50*](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) and [*InceptionV3*](https://docs.pytorch.org/vision/main/models/inception.html) models for classification as described in the following image.</br>
+The Ensemble model (EM) use two parallel outputs from both [*ResNet50*](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html) and [*InceptionV3*](https://docs.pytorch.org/vision/main/models/inception.html) models for classification of jets as described in the following image.</br>
 
 <p align="center">
   <img width="400" src="https://github.com/Basjuven/Jet_Images_Tagging_EM/blob/main/Images/Ensemble_arch.jpg" />
