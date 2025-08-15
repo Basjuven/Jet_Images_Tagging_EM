@@ -1,6 +1,6 @@
 # Ensemble Model
 
-This is the code repository for our paper titled **[Jet Image Tagging Using Deep Learning: An Ensemble Model](arxiv)**.
+This is the code repository for our paper titled **[Jet Image Tagging Using Deep Learning: An Ensemble Model](https://arxiv.org/abs/2508.10034)**.
 
 
 ## Model Architecture
@@ -58,6 +58,14 @@ This work is licensed under a [Creative Commons Attribution 4.0 International](h
 We encourage use of these codes \& data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-Still to get one
+@article{bassa2025jetimagetaggingusing,
+      title={Jet Image Tagging Using Deep Learning: An Ensemble Model}, 
+      author={Juvenal Bassa and Vidya Manian and Sudhir Malik and Arghya Chattopadhyay},
+      year={2025},
+      eprint={2508.10034},
+      archivePrefix={arXiv},
+      primaryClass={physics.data-an},
+      url={https://arxiv.org/abs/2508.10034}, 
+}
 ```
 
